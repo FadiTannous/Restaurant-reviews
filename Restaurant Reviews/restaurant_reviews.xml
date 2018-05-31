@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE root [
+  <!ELEMENT root (Restaurant+)>
+  <!ELEMENT Restaurant (restaurantname, logo, image, address, phonenumber, rating, date, reviewer, summary, menu)>
+  <!ELEMENT restaurantname (#PCDATA)>
+  <!ELEMENT logo (#PCDATA)>
+  <!ELEMENT image (filename, fileformat, dimensions, unit)>
+  <!ELEMENT filename (#PCDATA)>
+  <!ELEMENT fileformat (#PCDATA)>
+  <!ELEMENT dimensions (width, height)>
+  <!ELEMENT width (#PCDATA)>
+  <!ELEMENT height (#PCDATA)>
+  <!ELEMENT unit (#PCDATA)>
+  <!ELEMENT address (location, city, province, postalcode)>
+  <!ELEMENT location (#PCDATA)>
+  <!ELEMENT city (#PCDATA)>
+  <!ELEMENT province (#PCDATA)>
+  <!ELEMENT postalcode (#PCDATA)>
+  <!ELEMENT phonenumber (areacode, number)>
+  <!ELEMENT areacode (#PCDATA)>  
+  <!ELEMENT number (#PCDATA)>
+  <!ELEMENT rating (#PCDATA)>
+  <!ELEMENT date (year, month, day)>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT month (#PCDATA)>
+  <!ELEMENT day (#PCDATA)>
+  <!ELEMENT reviewer (firstname, middlename, lastname)>
+  <!ELEMENT firstname (#PCDATA)>
+  <!ELEMENT middlename (#PCDATA)>
+  <!ELEMENT lastname (#PCDATA)>
+  <!ELEMENT summary (description)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT menu (appetizers, entrees)>
+  <!ELEMENT appetizers (item+)>
+  <!ELEMENT item (description, currency, price, quantity, notes)>
+  <!ELEMENT currency (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT quantity (#PCDATA)>
+  <!ELEMENT notes (#PCDATA)>
+  <!ELEMENT entrees (item+)>
+
+]>-->
+<restaurants>
+	<restaurant name="Laughing Man">
+		<logo>"Visit the Laughing Man"</logo>
+		<image>
+			<filename>laughing-man</filename>
+			<fileformat>.gif</fileformat>
+			<dimensions>
+				<width>50</width>
+				<height>200</height>
+			</dimensions>
+			<unit>pixels</unit>
+		</image>
+		<address>
+			<location>2100 Lakeview Road</location>
+			<city>Kanata</city>
+			<province>Ontario</province>
+			<postalcode>K2K 2K7</postalcode>
+		</address>
+		<number>613-123-4567</number>
+		<rating>4</rating>
+		<date>
+			<year>2015</year>
+			<month>01</month>
+			<day>10</day>
+		</date>
+		<reviewer>
+			<firstname>Hunter</firstname>
+			<middlename>S.</middlename>
+			<lastname>Thompson</lastname>
+		</reviewer>
+		<summary>				Laughing Man Inn is a completely restoredfff Victorian hotel, and offers a warm and elegant atmosphere and gracious service. &#13;
+&#13;
+				Here are a few of the selections from the daily menu. &#13;
+EDITED HERE&#13;
+		</summary>
+		<menu>
+			<appetizers>
+				<item>
+					<description>Crab cakes with a creamy dill sauce served with crispy herbed fries</description>
+					<currency>$</currency>
+					<price>23</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Garden vegetable soup with chocolate sauce</description>
+					<currency>$</currency>
+					<price>15</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+			</appetizers>
+			<entrees>
+				<item>
+					<description>Braised jumbo sea scallops on a sun-dried roast tomato base</description>
+					<currency>$</currency>
+					<price>39</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Free-range chicken breast stuffed with morels in a brandy sauce</description>
+					<currency>$</currency>
+					<price>31</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Roast pork loin on a bed of garlic ginger apple slaw.</description>
+					<currency>$</currency>
+					<price>34</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+			</entrees>
+		</menu>
+	</restaurant>
+	<restaurant name="Gong's Asian Cuisine">
+		<logo/>
+		<image>
+			<filename>gong-asian-cuisine</filename>
+			<fileformat>.gif</fileformat>
+			<dimensions>
+				<width>150</width>
+				<height>250</height>
+			</dimensions>
+			<unit>pixels</unit>
+		</image>
+		<address>
+			<location>1385 Woodroffe Avenue</location>
+			<city>Ottawa</city>
+			<province>Ontario</province>
+			<postalcode>K2G 1V8</postalcode>
+		</address>
+		<phonenumber>
+			<areacode>613</areacode>
+			<number>727-4723</number>
+		</phonenumber>
+		<rating>3</rating>
+		<date>
+			<year>2015</year>
+			<month>01</month>
+			<day>03</day>
+		</date>
+		<reviewer>
+			<firstname>Brenda</firstname>
+			<middlename>P.</middlename>
+			<lastname>Smith</lastname>
+		</reviewer>
+		<summary>			The food is always consistent. A good variety of dim sum, sushi, Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. We sat down last night and within seconds of turning in our first order, the plates were on the table! The teriyaki dishes had the right amount of sauce and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. The maki-rolls were neatly rolled, cut properly and seasoned well. Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. We will be going back again! I would highly recommend it.&#13;
+			&#13;
+			Here are a few of the selections from the daily menu.&#13;
+		</summary>
+		<menu>
+			<appetizers>
+				<item>
+					<description>Egg Roll</description>
+					<currency>$</currency>
+					<price>15</price>
+					<quantity>12</quantity>
+					<notes>Each 1.50</notes>
+				</item>
+				<item>
+					<description>Spring Roll</description>
+					<currency>$</currency>
+					<price>15</price>
+					<quantity>12</quantity>
+					<notes>Each 1.50</notes>
+				</item>
+				<item>
+					<description>Shrimp Chips</description>
+					<currency>$</currency>
+					<price>2.50</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Fried Noodles</description>
+					<currency>$</currency>
+					<price>1</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Sweet &amp; Sour Fried Wonton Skin</description>
+					<currency>$</currency>
+					<price>3.50</price>
+					<quantity>12</quantity>
+					<notes/>
+				</item>
+			</appetizers>
+			<entrees>
+				<item>
+					<description>Scallops with Vegetables</description>
+					<currency>$</currency>
+					<price>14.95</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Sweet and Sour Fish Cantonese Style</description>
+					<currency>$</currency>
+					<price>13.95</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Shrimps with Vegetables</description>
+					<currency>$</currency>
+					<price>12.95</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>				
+				<item>
+					<description>Beef with Mushroom</description>
+					<currency>$</currency>
+					<price>10.25</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Beef with Tomato</description>
+					<currency>$</currency>
+					<price>10.25</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+				<item>
+					<description>Beef with Broccoli</description>
+					<currency>$</currency>
+					<price>10.25</price>
+					<quantity>1</quantity>
+					<notes/>
+				</item>
+			</entrees>
+		</menu>
+	</restaurant>
+</restaurants>
